@@ -14,7 +14,7 @@ class Book {
   final String author;
   final Genre genre;
   bool isRead;
-  int? rating; // 1-5 աստղ, սկզբում կարող է null լինել
+  int? rating;
 
   Book({
     required this.id,
